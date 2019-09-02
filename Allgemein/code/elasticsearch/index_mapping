@@ -9,6 +9,10 @@ PUT /school
                             "date": {
                                 "type": "date",
                                 "format": "E, d MMM yyyy HH:mm:ss Z"
+                            },
+                            "stash": {
+                                "type": "object",
+                                "dynamic": true
                             }
                         }
         }
