@@ -1,20 +1,18 @@
 PUT /school
 {
     "mappings": {
-        "school_type": {
-            "dynamic": "strict",
-                        "properties": {
-                            "subject_name": {"type":"string"},
-                            "topic": {"type": "string"},
-                            "date": {
-                                "type": "date",
-                                "format": "E, d MMM yyyy HH:mm:ss Z"
-                            },
-                            "stash": {
-                                "type": "object",
-                                "dynamic": true
-                            }
-                        }
+        "properties": {
+            "subject_name": {"type":"text"},
+                "topic": {"type": "text"},
+                 "date": {
+                    "type": "date",
+                    "format": "E d MMM yyyy hh:mm:ss "
+                },
+                "stash": {
+                    "type": "object",
+                    "dynamic": true
+                }
+            }
+        
         }
-    }
 }
