@@ -6,7 +6,7 @@ PUT /school
                 "topic": {"type": "text"},
                  "date": {
                     "type": "date",
-                    "format": "E d MMM yyyy hh:mm:ss "
+                    "format": "E d MMM yyyy hh:mm Z"
                 },
                 "stash": {
                     "type": "object",
