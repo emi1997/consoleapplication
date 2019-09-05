@@ -6,9 +6,9 @@
 
 ### Daten
 
-- [ ] Erstelle eine Datenstruktur zum Speichern in Elasticsearch (Es muss ein zeitstempel im UTC Format enthalten sein)
-- [ ] Organisiere dir Test Daten
-- [ ] Erstelle das Elasticsearch Index Mapping für deine Datenstruktur
+- [x] Erstelle eine Datenstruktur zum Speichern in Elasticsearch (Es muss ein zeitstempel im UTC Format enthalten sein)
+- [x] Organisiere dir Test Daten
+- [x] Erstelle das Elasticsearch Index Mapping für deine Datenstruktur
 
 ### Elasticsearch Index
 
